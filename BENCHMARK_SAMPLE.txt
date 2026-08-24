@@ -1,0 +1,13 @@
+failed {'loss_severity': 0.64999999935, 'adaptation_gain': 0.050000000000000044, 'functional_recovery': 0.0769230768047338, 'transformation_distance': 0.45734742446707477, 'invariant_retention': 0.5, 'learning_efficiency': 0.06250000000000006, 'adaptive_resilience': 0.1951979425268313}
+rollback {'loss_severity': 0.64999999935, 'adaptation_gain': 0.56, 'functional_recovery': 0.8615384602130178, 'transformation_distance': 0.05567764362830021, 'invariant_retention': 1.0, 'learning_efficiency': 0.7000000000000001, 'adaptive_resilience': 0.7542538561141925}
+transformed {'loss_severity': 0.64999999935, 'adaptation_gain': 0.61, 'functional_recovery': 0.9384615370177515, 'transformation_distance': 0.5951190357119042, 'invariant_retention': 1.0, 'learning_efficiency': 0.8714285714285714, 'adaptive_resilience': 0.8480046523985345}
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
